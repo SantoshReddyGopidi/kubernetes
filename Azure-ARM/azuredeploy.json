@@ -606,14 +606,14 @@
       "apiVersion": "2022-09-01",
       "dependsOn": [ "[resourceId('Microsoft.Resources/deploymentScripts', 'PreReqChecks')]" ],
       "tags": {
-        "displayName": "[variables('StorageAccountName')]"
-      },
-      "sku": {
-        "name": "[variables('StorageAccountType')]",
+        "displayName": "[variables('StorageAccountName')]",
         "CreatedBY": "Santhosh G",
         "Project Owner": "Bhasker G",
         "Team Name": "Data",
         "CreatedOnDate": "01/11/2023"
+      },
+      "sku": {
+        "name": "[variables('StorageAccountType')]"
       },
       "kind": "StorageV2"
     },
