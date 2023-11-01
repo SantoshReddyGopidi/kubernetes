@@ -143,6 +143,15 @@
         },    
         "AuthenticationType":{
             "value": ""
-        }
+        },
+    "tags": {
+      "type": "object",
+      "defaultValue": {
+        "CreatedBY": "Santhosh G",
+        "Project Owner": "Bhasker G",
+        "Team Name": "Data",
+        "CreatedOnDate": "01/11/2023"
+      }
+    }
     }
 }
